@@ -33,10 +33,15 @@ picture {
   padding: 0;
 }
 
+button {
+  appearance: none;
+}
+
 button,
 a {
   color: currentColor;
   font-family: inherit;
   font-size: inherit;
   line-height: inherit;
+  background-color: transparent;
 }
