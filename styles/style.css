@@ -197,7 +197,7 @@
 }
 .title-decor {
   color: var(--decorated-text-color);
-  background-color: var(--accent-color); 
+  background-color: var(--accent-color);
   /*align-self: start;*/
   font-weight: 700;
 }
@@ -374,7 +374,11 @@
     padding: 20px;
   }
 }
-
+@media (width >= 768px) {
+    .gallery-section .content-section__title {
+        grid-column: 1 / -1;
+    }
+}
 @media (width >= 1024px) {
   /* ---------- header ---------- */
 
